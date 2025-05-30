@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body {
-  background: black;
+  background-image: linear-gradient(to bottom,rgb(10, 10, 10), rgb(113,28,145));
   color: white;
   font-family: 'Courier New', Courier, monospace;
 }

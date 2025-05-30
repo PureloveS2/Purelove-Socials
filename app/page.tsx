@@ -5,7 +5,7 @@ import { SiRoblox } from "react-icons/si";
 
 export default function Home() {
   return (
-    <main className="flex justify-center items-center h-screen">
+    <main className="flex justify-center items-center h-dvh">
       <div className="bg-zinc-950 w-[95%] max-w-[500px] flex flex-col items-center p-4 rounded-2xl gap-4">
         
       <div className="flex w-full items-center gap-2">
@@ -30,7 +30,7 @@ export default function Home() {
           
           <figcaption className="w-[95%]">
             <p className="font-bold text-xl mb-1 text-purple-500">Purelove</p>
-            <p>Desenvolvedor full-stack, apaixonado em criar código e atualmente aprendendo a fazer jogos no Roblox</p>
+            <p>Desenvolvedor <Link href={"https://www.alura.com.br/artigos/full-stack"} target="_blank" className="bg-purple-500/40 hover:bg-purple-500/60 active:bg-purple-500/80 rounded transition">full-stack</Link>, apaixonado em criar código e atualmente aprendendo a fazer jogos no Roblox</p>
           </figcaption>
         </figure>
         

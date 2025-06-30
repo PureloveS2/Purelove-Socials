@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaTelegram } from "react-icons/fa";
-import { SiRoblox } from "react-icons/si";
+import { RiTwitterXFill } from "react-icons/ri";
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
           
           <figcaption className="w-[95%]">
             <p className="font-bold text-xl mb-1 text-purple-500">Purelove</p>
-            <p>Desenvolvedor <Link href={"https://www.alura.com.br/artigos/full-stack"} target="_blank" className="bg-purple-500/40 hover:bg-purple-500/60 active:bg-purple-500/80 rounded transition">full-stack</Link>, apaixonado em criar código e atualmente aprendendo a fazer jogos no Roblox</p>
+          <p>Desenvolvedor <Link href={"https://www.alura.com.br/artigos/full-stack"} target="_blank" className="bg-purple-500/40 hover:bg-purple-500/60 active:bg-purple-500/80 rounded transition">full-stack</Link>, apaixonado em criar código e desenvolver soluções robustas</p>
           </figcaption>
         </figure>
         
@@ -53,16 +53,16 @@ export default function Home() {
           </li>
 
           <li>
-            <Link href={"https://www.roblox.com/pt/users/7671700222/profile"} target="_blank" className="flex items-center bg-blue-700 hover:bg-blue-600 active:bg-blue-500 rounded-full p-2 transition">
-              <SiRoblox className="absolute w-8 h-8" />
-              <p className="text-center w-full text-xl font-bold">Roblox</p>
-            </Link>
-          </li>
-
-          <li>
             <Link href={"https://github.com/PureloveS2"} target="_blank" className="flex items-center bg-gray-900 hover:bg-gray-800 active:bg-gray-700 rounded-full p-2 transition">
               <FaGithub className="absolute w-8 h-8" />
               <p className="text-center w-full text-xl font-bold">Github</p>
+            </Link>
+          </li>
+          
+          <li>
+            <Link href={"https://x.com/PureloveS22"} target="_blank" className="flex items-center bg-black hover:bg-zinc-900 active:bg-zinc-800 rounded-full p-2 transition">
+              <RiTwitterXFill className="absolute w-8 h-8" />
+              <p className="text-center w-full text-xl font-bold">X</p>
             </Link>
           </li>
         </ul>
